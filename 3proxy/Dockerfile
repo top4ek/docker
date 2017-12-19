@@ -1,6 +1,6 @@
 FROM alpine
 
-ENV VERSION 0.8.10
+ENV VERSION 0.8.11
 
 RUN apk add --no-cache --virtual .build-deps gcc linux-headers make musl-dev tar openssl && \
   wget -O 3proxy.tar.gz "https://github.com/z3APA3A/3proxy/archive/${VERSION}.tar.gz" && \
